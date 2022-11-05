@@ -1,0 +1,71 @@
+.book__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.book__author, .book__genre {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.book__rating {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.book__price {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.book__left {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin-right: auto;
+}
+
+.book__right {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    gap: 24px;
+}
+
+.book__count {
+    cursor: pointer;
+    color: #fff;
+    width: 38px;
+    height: 38px;
+    background: #000000;
+    border-radius: 8px;
+}
+
+.book__count_disabled {
+    cursor: pointer;
+    color: #fff;
+    width: 38px;
+    height: 38px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.book__amount {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.book__inner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}

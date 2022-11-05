@@ -1,0 +1,17 @@
+.book__info {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.book__item {
+    padding: 20px;
+    width: 50%;
+    height: 233px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.bookPage {
+    margin-top: 50px;
+}
