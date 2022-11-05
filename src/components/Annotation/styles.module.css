@@ -1,0 +1,14 @@
+.book__anotation_title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000; 
+}
+
+.book__anotation {
+    margin-top: 22px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #000000;
+}
